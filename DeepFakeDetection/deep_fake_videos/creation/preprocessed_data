@@ -1,0 +1,12 @@
+->In our project, we utilized several datasets including FaceForensics++, Celeb-DF, and data from the Deepfake Detection Challenge, to develop a robust deep learning solution for detecting manipulated videos. 
+
+->The preprocessing phase involved loading the datasets, splitting videos into frames, and extracting facial regions from each frame to create cropped face videos. For model development, we employed a PyTorch framework leveraging transfer learning with ResNeXt50 and LSTM layers to exploit both spatial and temporal features for enhanced detection accuracy. 
+
+->The data was then split into training and testing sets, facilitating model training and evaluation. After training, the model's performance was assessed through rigorous testing, and upon achieving satisfactory results, the trained model was saved in a .pt file for future use. During prediction, the saved model was loaded, and inference was performed to classify videos based on the learned weights, effectively detecting potential instances of deepfake manipulation. 
+
+->This comprehensive approach ensured the development of an effective deep learning solution for combating the proliferation of fake videos across various platforms.
+
+
+**https://drive.google.com/drive/folders/1ii9HQ3wRKGHWZyQu6fTkHpYq8tLjVYof?usp=sharing**
+
+->hear is the drive link for the preprocessed data 
